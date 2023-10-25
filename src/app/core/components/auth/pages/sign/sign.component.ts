@@ -28,7 +28,7 @@ public formAuth:FormGroup = this.formBuilder.group({
         password:this.formAuth.value.password
       }).subscribe({
         next: (res) =>res,
-        error: (e) =>this.msgError =e
+        error: (e) =>this.msgError = e
       });
     }
   }
