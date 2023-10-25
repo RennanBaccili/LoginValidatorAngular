@@ -4,7 +4,7 @@ import { SignComponent } from './pages/sign/sign.component';
 
 const routes: Routes = [
   {
-    path: 'sign',
+    path: '',
     component: SignComponent
   }
 ];
